@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# movie-db-next-react
 
-## Getting Started
-
-First, run the development server:
+## Build Setup
 
 ```bash
-npm run dev
-# or
-yarn dev
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About App
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Demo Link: https://movie-db-next-react.vercel.app/
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+This app uses:
+<ul>
+  <li>React</li>
+  <li>Redux Toolkit</li>
+  <li>Next</li>
+  <li>Node Express Server (for user registration, authentication and favoriting movies) https://github.com/hhashimi/node-express-movie-db-server</li>
+  <li><a href='https://developers.themoviedb.org/3'>The Movie Database API</a></li>
+</ul>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+### Homepage when user is logged in
+<img src='https://user-images.githubusercontent.com/18535797/138525023-96fc2aaf-2424-4441-84f9-0a099c90f1a6.png'>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Pagination
+<img src='https://user-images.githubusercontent.com/18535797/138525043-4ed9c235-c122-4e3b-8ad8-b968bc7a0185.png'>
