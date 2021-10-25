@@ -27,6 +27,7 @@ This app uses:
   <li>Redux Toolkit</li>
   <li>Next</li>
   <li>Node Express Server (for user registration, authentication and favoriting movies) https://github.com/hhashimi/node-express-movie-db-server</li>
+  <li>Tailwind CSS</li>
   <li><a href='https://developers.themoviedb.org/3'>The Movie Database API</a></li>
 </ul>
 
